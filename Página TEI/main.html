@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en" style="background-color:papayawhip">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <title>TEI</title>
+  </head>
+  
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:floralwhite;">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="main.html">Home</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="np.html">Nuestra Página</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Navega
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="nb.html">Nuestro Blog</a></li>
+              <li><a class="dropdown-item" href="ctc.html">Crea tu cuenta</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="eth.html">Escribe tu historia</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                Iniciar Sesión
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <a class="dropdown-item">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+                      </div>
+                      <a class="btn btn-primary" href="#" role="button" style="margin-left: 20px; margin-bottom: 10px;">Iniciar Sesión</a>
+                    </form>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="saludmental1.jpg" class="d-block w-100" style="width: 1000px; height: 500px;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Mejora tu salud mental</h5>
+          <p>Hay muchas formas de salir adelante y esta es una de ellas</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="saludmental2.jpg" class="d-block w-100" style="width: 1000px; height: 500px;">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Para cualquier estado de ánimo</h5>
+          <p>Te puedes sentir feliz, triste o enojado, acá no hacemos discrepancias</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="Inclusion.jpg" class="d-block w-100" style="width: 1000px; height: 500px;"> 
+        <div class="carousel-caption d-none d-md-block">
+          <h5>¡Para todo el mundo!</h5>
+          <p>Eres libre de expresarte, esto es un lugar de confianza</p>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="mx-auto" style="padding-top: 30px; background-color:papayawhip;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card" style="border-width: 5px; border-color: paleturquoise;">
+            <div class="card-body">
+              <h5 class="card-title">¿De qué trata ésto?</h5>
+              <p class="card-text" style="text-align: justify;">
+                <br>Éste blog fue creado con el propósito de dar a 
+            conocer las historias de distintas personas acerca de problemas de salud mental, con el objetivo 
+            de normalizar los problemas psicológicos y las ayudas necesarias para mantener sana la mente.
+            El blog cuenta con una sección completamente para ti, donde eres libre de contar tus historias, 
+            tus experiencias, tus problemas entre otras cosas que encuentres necesarias.
+            No sólo eso, sino que también podrás recibir ayuda de otros blogers con sus experiencias, 
+            ya que todo quedará registrado en la página, para que de esa manera llegue a más personas.<br/>
+            <br>¡Anímate a contar tu historia! Podrías ayudar a mucha gente que necesite apoyo.<br/>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card" style="border-width: 5px; border-color: paleturquoise;">
+            <div class="card-body">
+              <h5 class="card-title">¡Conócenos!</h5>
+              <p class="card-text" style="text-align: justify;">Somos un grupo de estudiantes de Ingeniería 
+                Civil interesados en ayudara los demás.
+              </p>
+
+              <a href="c.html" class="btn btn-link" style="border-width: 5px; border-color:paleturquoise">Nuestro Equipo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container-fluid" style="padding-top: 30px; padding-bottom: 30px; background-color:papayawhip;">
+    <div class="card text-center" style="border-width: 5px; border-color: paleturquoise; background-color: floralwhite;">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="true"><strong>¡Ayúdate!</strong></a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Una ayuda profesional no estaría mal</h5>
+        <p class="card-text" style="text-align: center;">
+          Nuestra web ayuda a muchas personas, pero a veces necesitamos ayuda profesional para mejorar aún más.
+          Es por eso que te dejamos una excelente página para que busques y te informes sobre sus doctores.
+        </p>
+        <a href="https://www.psikinet.cl/" class="btn btn-primary">Página</a>
+      </div>
+    </div>
+  </div>
+
+  
+
+</html>
